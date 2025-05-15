@@ -113,24 +113,17 @@ const projects: ProjectData[] = [
   {
     name: 'DNS Split Relay',
     description: 'Developed an asynchronous split DNS implementation for handling complex DNS routing scenarios in enterprise environments.',
-    technologies: ['Go', 'DNS', 'Networking', 'Docker'],
-    github: 'https://github.com/yourusername/dns-split-relay',
-    image: '/images/dns-project.jpg'
+    technologies: ['nodejs', 'dns', 'docker'],
+    github: 'https://github.com/Kwasniewski/dns-split-relay',
+    image: '/images/dns.png'
   },
   {
-    name: 'WebRTC Monitor',
-    description: 'Created a real-time monitoring solution for WebRTC connections, providing detailed metrics and diagnostics.',
-    technologies: ['TypeScript', 'WebRTC', 'React', 'Node.js'],
-    github: 'https://github.com/yourusername/webrtc-monitor',
+    name: 'Semantic Release Jira Releases',
+    description: 'Updated semantic release jira releases to use new jira auth method.',
+    technologies: ['nodejs', 'jira', 'semantic-release'],
+    github: 'https://github.com/Kwasniewski/semantic-release-jira-releases',
     live: 'https://webrtc-monitor.demo.com',
-    image: '/images/webrtc-project.jpg'
-  },
-  {
-    name: 'Cloud Infrastructure Automation',
-    description: 'Built a comprehensive infrastructure automation suite using Terraform and AWS, enabling rapid deployment of scalable architectures.',
-    technologies: ['Terraform', 'AWS', 'Python', 'Docker'],
-    github: 'https://github.com/yourusername/cloud-infra-automation',
-    image: '/images/cloud-project.jpg'
+    image: '/images/jira.webp'
   }
 ];
 
