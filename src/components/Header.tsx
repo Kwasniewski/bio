@@ -37,7 +37,7 @@ const Header: React.FC = () => {
     <HeaderContainer>
       <ProfileSection>
         <ProfileImage>
-          <img src="/images/jek.jpg" alt="Joseph Kwasniewski" />
+          <img src="./images/jek.jpg" alt="Joseph Kwasniewski" />
         </ProfileImage>
         <Title>Joseph Kwasniewski</Title>
         <Tagline>Software Developer | Bay Area, CA</Tagline>

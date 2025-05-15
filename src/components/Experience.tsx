@@ -82,49 +82,49 @@ const Period = styled.div`
 const companies: CompanyData[] = [
   {
     name: 'RingCentral / Hopin',
-    logo: '/images/ringcentral.webp',
+    logo: './images/ringcentral.webp',
     role: 'Senior Staff Software Engineer',
     period: '2021 - 2025',
     description: 'Led development of enterprise communication and virtual event solutions.'
   },
   {
     name: 'Classpass',
-    logo: '/images/classpass.jpg',
+    logo: './images/classpass.jpg',
     role: 'Staff Software Engineer',
     period: '2018 - 2021',
     description: 'Developed fitness platform infrastructure and scaling solutions.'
   },
   {
     name: 'TokBox',
-    logo: '/images/tokbox.png',
+    logo: './images/tokbox.png',
     role: 'Senior DevOps Engineer',
     period: '2014 - 2018',
     description: 'Led DevOps initiatives and managed WebRTC platform infrastructure.'
   },
   {
     name: 'Adobe',
-    logo: '/images/adobe.png',
+    logo: './images/adobe.png',
     role: 'Technical Architect',
     period: '2012 - 2014',
     description: 'Architected enterprise software solutions and led technical initiatives.'
   },
   {
     name: 'ContextOptional',
-    logo: '/images/contextoptional.png',
+    logo: './images/contextoptional.png',
     role: 'Operation Lead',
     period: '2009 - 2012',
     description: 'Led operations team and managed infrastructure deployment.'
   },
   {
     name: 'Reach Systems',
-    logo: '/images/reach.png',
+    logo: './images/reach.png',
     role: 'Linux System Admin',
     period: '2008 - 2009',
     description: 'Managed Linux systems and infrastructure deployment.'
   },
   {
     name: 'Itiva',
-    logo: '/images/itiva.jpg',
+    logo: './images/itiva.jpg',
     role: 'Operations Specialist',
     period: '2007 - 2008',
     description: 'Handled operations and system administration responsibilities.'
