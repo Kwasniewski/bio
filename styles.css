@@ -91,6 +91,26 @@ h2 {
     color: var(--secondary-color);
 }
 
+/* TypeScript icon styling */
+.ts-icon {
+    position: relative;
+}
+
+.ts-icon::after {
+    content: 'TS';
+    position: absolute;
+    right: -5px;
+    bottom: -5px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-style: normal;
+}
+
 /* Projects Section */
 .project-grid {
     display: grid;
