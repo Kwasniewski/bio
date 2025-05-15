@@ -29,7 +29,8 @@
         "eject": "react-scripts eject",
         "lint:js": "eslint src/",
         "lint:css": "stylelint \"src/**/*.{css,scss}\"",
-        "lint": "npm run lint:js && npm run lint:css"
+        "lint": "npm run lint:js && npm run lint:css",
+        "coverage": "react-scripts test --coverage --watchAll=false"
     },
     "eslintConfig": {
         "extends": [
