@@ -1,10 +1,11 @@
 name: Deploy to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main  # or master, depending on your default branch name
-  workflow_dispatch:
+  workflow_run:
+    workflows: ["Test"]
+    branches: [main]
+    types: 
+      - completed
 
 permissions:
   contents: read
@@ -33,7 +34,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: yarn install
+        run: yarn ci
 
       - name: Build app
         run: yarn build

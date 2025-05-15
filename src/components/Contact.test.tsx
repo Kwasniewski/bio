@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Contact from './Contact';
 
 test('name displays', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Joseph Kwasniewski/i);
+  render(<Contact />);
+  const linkElement = screen.getByText(/Get in Touch/i);
   expect(linkElement).toBeInTheDocument();
 });
