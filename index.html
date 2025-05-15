@@ -107,27 +107,6 @@
         </section>
     </div>
 
-    <script>
-        // Theme toggle functionality
-        const themeToggle = document.querySelector('.theme-toggle');
-        const htmlElement = document.documentElement;
-        const moonIcon = '<i class="fas fa-moon"></i>';
-        const sunIcon = '<i class="fas fa-sun"></i>';
-
-        // Check for saved theme preference
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        htmlElement.setAttribute('data-theme', savedTheme);
-        themeToggle.innerHTML = savedTheme === 'dark' ? sunIcon : moonIcon;
-
-        // Toggle theme
-        themeToggle.addEventListener('click', () => {
-            const currentTheme = htmlElement.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-            
-            htmlElement.setAttribute('data-theme', newTheme);
-            themeToggle.innerHTML = newTheme === 'dark' ? sunIcon : moonIcon;
-            localStorage.setItem('theme', newTheme);
-        });
-    </script>
+    <script src="js/theme.js"></script>
 </body>
 </html> 
