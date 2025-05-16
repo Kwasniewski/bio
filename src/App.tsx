@@ -105,10 +105,10 @@ const App: React.FC = () => {
       </ThemeToggle>
       <Container>
         <Header />
+        <Contact />
         <Experience />
         <Skills />
         <Projects />
-        <Contact />
       </Container>
     </StyledThemeProvider>
   );

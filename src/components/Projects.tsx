@@ -115,7 +115,7 @@ const projects: ProjectData[] = [
     description: 'Developed an asynchronous split DNS implementation for handling complex DNS routing scenarios in enterprise environments.',
     technologies: ['nodejs', 'dns', 'docker'],
     github: 'https://github.com/Kwasniewski/dns-split-relay',
-    image: '/images/dns.png'
+    image: './images/dns.png'
   },
   {
     name: 'Semantic Release Jira Releases',
@@ -123,7 +123,7 @@ const projects: ProjectData[] = [
     technologies: ['nodejs', 'jira', 'semantic-release'],
     github: 'https://github.com/Kwasniewski/semantic-release-jira-releases',
     live: 'https://webrtc-monitor.demo.com',
-    image: '/images/jira.webp'
+    image: './images/jira.webp'
   }
 ];
 
