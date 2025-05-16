@@ -5,6 +5,7 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import GoogleDocEmbed from './components/GoogleDocEmbed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 
@@ -109,6 +110,10 @@ const App: React.FC = () => {
         <Experience />
         <Skills />
         <Projects />
+        <GoogleDocEmbed 
+          docUrl="https://docs.google.com/document/d/1WtD3Vk_YoiFcjXm6sklLvJqQ_CIVO3OFQ-PYVOcK3hU/preview"
+          title="Resume"
+        />
       </Container>
     </StyledThemeProvider>
   );
