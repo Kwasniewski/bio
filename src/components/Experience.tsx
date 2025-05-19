@@ -85,42 +85,42 @@ const companies: CompanyData[] = [
     logo: './images/ringcentral.webp',
     role: 'Senior Staff Software Engineer',
     period: '2021 - 2025',
-    description: 'Led development of enterprise communication and virtual event solutions.'
+    description: 'Designed, managed and scaled several AWS based k8s clusters across media, ai and web workflows.'
   },
   {
     name: 'Classpass',
     logo: './images/classpass.jpg',
     role: 'Staff Software Engineer',
     period: '2018 - 2021',
-    description: 'Developed fitness platform infrastructure and scaling solutions.'
+    description: 'Managed microservices in AWS with a mix of Amazon ECS and EKS.'
   },
   {
     name: 'TokBox',
     logo: './images/tokbox.png',
     role: 'Senior DevOps Engineer',
     period: '2014 - 2018',
-    description: 'Led DevOps initiatives and managed WebRTC platform infrastructure.'
+    description: 'Scaled Java / C based WebRTC platform to support SaaS offering.'
   },
   {
     name: 'Adobe',
     logo: './images/adobe.png',
     role: 'Technical Architect',
     period: '2012 - 2014',
-    description: 'Architected enterprise software solutions and led technical initiatives.'
+    description: 'Managed a large Linux environment with >40,000 servers as part of SiteCatalyst TechOps team.'
   },
   {
     name: 'ContextOptional',
     logo: './images/contextoptional.png',
     role: 'Operation Lead',
     period: '2009 - 2012',
-    description: 'Led operations team and managed infrastructure deployment.'
+    description: 'Led operations team and managed infrastructure deployments.'
   },
   {
     name: 'Reach Systems',
     logo: './images/reach.png',
     role: 'Linux System Admin',
     period: '2008 - 2009',
-    description: 'Managed Linux systems and infrastructure deployment.'
+    description: 'Managed Linux systems and infrastructure deployments.'
   },
   {
     name: 'Itiva',

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faJava, faJs, faDocker, faGithub, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faGem, faVideo, faDharmachakra, faNetworkWired, faCubes } from '@fortawesome/free-solid-svg-icons';
+import { faGem, faVideo, faDharmachakra, faCubes } from '@fortawesome/free-solid-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { Tooltip, TooltipTrigger } from './shared/Tooltip';
 
@@ -105,28 +105,28 @@ const developmentSkills: SkillData[] = [
   {
     name: 'Java',
     icon: faJava,
-    description: 'Developed OpenTok Java SDK integrations and enterprise applications'
+    description: 'Developed, scaled and managed Java based applications.'
   },
   {
     name: 'JavaScript',
     icon: faJs,
-    description: 'Built web applications and implemented real-time communication features'
+    description: 'Built web applications, tools and automation.'
   },
   {
     name: 'TypeScript',
     icon: faJs,
-    description: 'Developed type-safe applications and enhanced existing JavaScript codebases',
+    description: 'Frontend and backend development.',
     isTypeScript: true
   },
   {
     name: 'Ruby',
     icon: faGem,
-    description: 'Created authentication systems using Ruby and implemented LDAP strategies'
+    description: 'Created scripts and applications using Ruby and Ruby on Rails.'
   },
   {
     name: 'WebRTC',
     icon: faVideo,
-    description: 'Implemented video conferencing and screen sharing features using WebRTC'
+    description: 'Scaled out WebRTC based applications.'
   }
 ];
 
@@ -134,32 +134,27 @@ const infrastructureSkills: SkillData[] = [
   {
     name: 'Docker',
     icon: faDocker,
-    description: 'Containerized applications and created development environments'
+    description: 'Containerized applications to be used locally and in k8s clusters.'
   },
   {
     name: 'Kubernetes',
     icon: faDharmachakra,
-    description: 'Orchestrated container deployments and managed microservices architecture'
-  },
-  {
-    name: 'DNS/Networking',
-    icon: faNetworkWired,
-    description: 'Developed DNS Split Relay for asynchronous split DNS implementation'
+    description: 'Orchestrated container deployments and managed microservices architecture.'
   },
   {
     name: 'AWS',
     icon: faAws,
-    description: 'Deployed and managed cloud infrastructure and services'
+    description: 'Deployed and managed cloud infrastructure and services.'
   },
   {
     name: 'Terraform',
     icon: faCubes,
-    description: 'Implemented infrastructure as code for cloud resources'
+    description: 'Implemented infrastructure as code for cloud resources.'
   },
   {
     name: 'GitHub',
     icon: faGithub,
-    description: 'Managed version control, CI/CD pipelines, and open source contributions'
+    description: 'Managed version control, CI/CD pipelines, and open source contributions.'
   }
 ];
 
