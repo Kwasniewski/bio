@@ -115,7 +115,8 @@ const projects: ProjectData[] = [
     description: 'Developed a demo for Stytch authentication.',
     technologies: ['typescript', 'auth', 'cloudflare'],
     github: 'https://github.com/Kwasniewski/stytch-demo',
-    image: './images/stytch.png'
+    live: 'https://kwasniewski.github.io/stytch-demo/',
+    image: './images/stytch.svg'
   },
   {
     name: 'DNS Split Relay',
@@ -129,7 +130,6 @@ const projects: ProjectData[] = [
     description: 'Updated semantic release jira releases to use new jira auth method.',
     technologies: ['nodejs', 'jira', 'semantic-release'],
     github: 'https://github.com/Kwasniewski/semantic-release-jira-releases',
-    live: 'https://webrtc-monitor.demo.com',
     image: './images/jira.webp'
   }
 ];
