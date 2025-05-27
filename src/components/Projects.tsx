@@ -111,6 +111,13 @@ const ProjectLink = styled.a`
 
 const projects: ProjectData[] = [
   {
+    name: 'Stytch Demo',
+    description: 'Developed a demo for Stytch authentication.',
+    technologies: ['typescript', 'auth', 'cloudflare'],
+    github: 'https://github.com/Kwasniewski/stytch-demo',
+    image: './images/stytch.png'
+  },
+  {
     name: 'DNS Split Relay',
     description: 'Developed an asynchronous split DNS implementation for handling complex DNS routing scenarios in enterprise environments.',
     technologies: ['nodejs', 'dns', 'docker'],
